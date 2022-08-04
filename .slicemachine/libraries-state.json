@@ -71,6 +71,82 @@
         },
         "screenshotPaths": {}
       },
+      "popup": {
+        "library": "slices",
+        "id": "popup",
+        "name": "Popup",
+        "description": "Popup",
+        "model": {
+          "id": "popup",
+          "type": "SharedSlice",
+          "name": "Popup",
+          "description": "Popup",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Popup",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "popup",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Redefine customized experiences",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Nostrud consectetur nostrud Lorem eu amet cillum id sint et.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/phungnc/workspace/lab/nextjs-blog/.slicemachine/assets/slices/Popup/default/preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
+      },
       "section_title": {
         "library": "slices",
         "id": "section_title",
@@ -222,6 +298,234 @@
             "path": "/Users/phungnc/workspace/lab/nextjs-blog/.slicemachine/assets/slices/Slider/default/preview.png",
             "width": 800,
             "height": 123
+          }
+        }
+      },
+      "test01": {
+        "library": "slices",
+        "id": "test01",
+        "name": "Test01",
+        "description": "Test01",
+        "model": {
+          "id": "test01",
+          "type": "SharedSlice",
+          "name": "Test01",
+          "description": "Test01",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Test01",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test01",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Aggregate turn-key channels",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Et quis eu excepteur est non anim aliqua consequat quis in. Duis labore duis cupidatat consequat amet adipisicing ea exercitation consequat occaecat minim enim tempor.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/phungnc/workspace/lab/nextjs-blog/.slicemachine/assets/slices/Test01/default/preview.png",
+            "width": 800,
+            "height": 152
+          }
+        }
+      },
+      "test02": {
+        "library": "slices",
+        "id": "test02",
+        "name": "Test02",
+        "description": "Test02",
+        "model": {
+          "id": "test02",
+          "type": "SharedSlice",
+          "name": "Test02",
+          "description": "Test02",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Test02",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test02",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Synthesize sexy initiatives",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliquip voluptate aute reprehenderit cillum minim. Magna cupidatat sunt sunt anim sint eiusmod minim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/phungnc/workspace/lab/nextjs-blog/.slicemachine/assets/slices/Test02/default/preview.png",
+            "width": 800,
+            "height": 123
+          }
+        }
+      },
+      "test03": {
+        "library": "slices",
+        "id": "test03",
+        "name": "Test03",
+        "description": "Test03",
+        "model": {
+          "id": "test03",
+          "type": "SharedSlice",
+          "name": "Test03",
+          "description": "Test03",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Test03",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test03",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Disintermediate bleeding-edge markets",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Commodo cupidatat sint labore fugiat incididunt ex. In sit aute mollit nulla incididunt excepteur quis et.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/phungnc/workspace/lab/nextjs-blog/.slicemachine/assets/slices/Test03/default/preview.png",
+            "width": 800,
+            "height": 29
           }
         }
       }
