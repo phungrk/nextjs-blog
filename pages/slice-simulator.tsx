@@ -4,6 +4,11 @@ import { SliceZone } from "@prismicio/react";
 import { components } from "../slices/index";
 
 import state from "../.slicemachine/libraries-state.json";
+// import { SliceZone } from "@prismicio/react";
+// import {
+//   SliceSimulator,
+//   SliceSimulatorProps,
+// } from "@prismicio/slice-simulator-react";
 
 const SliceSimulatorPage = () => {
   return (
