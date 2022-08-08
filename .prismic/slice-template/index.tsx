@@ -7,9 +7,11 @@ export interface IProps {
   description?: RichTextBlock[];
 }
 
-export const MySlice: React.FC<IProps> = ({ title, description }) => (
+const {{componentName}} = ({ title, description }: IProps) => (
   <>
     <RichText render={title} />
     <RichText render={description} />
   </>
 );
+
+export default {{componentName}}
